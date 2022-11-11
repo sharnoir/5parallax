@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 1000px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.container #scene {}
+
+.container #scene .b1 img{
+    transform: scale(1.2);
+}
+
+.container #scene .b2 img{
+    transform: scale(1.2);
+}
